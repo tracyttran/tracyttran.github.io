@@ -150,7 +150,7 @@ img {
   transition: opacity .5s;
 }
 
-.location-listing:hover .location-title {
+.location-listing:hover .listing-title {
   opacity: 1;
 }
 
@@ -170,7 +170,7 @@ img {
 
 /* for touch screen devices */
 @media (hover: none) { 
-  .location-title {
+  .listing-title {
     opacity: 1;
   }
   .location-image img {
