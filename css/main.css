@@ -38,7 +38,8 @@ h1 {
 }
 
 .blurb {
-    font-family: "Roboto", "Helvetica", "Sans-Serif";
+    /*font-family: "Roboto", "Helvetica", "Sans-Serif";*/
+    font-family: 'Neue Haas Unica Pro', 'Source Code Pro', 'Helvetica Neue', sans-serif;
 }
 
 h2 {
