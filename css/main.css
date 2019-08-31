@@ -6,6 +6,10 @@ body {
     width: 70%;
 }
 
+.navigation{
+  margin-bottom: 120px;
+}
+
 nav ul, footer ul {
     /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
     margin-bottom: 100px;
@@ -13,11 +17,6 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-}
-
-.mainnavlinks {
-  text-align: right;
-  text-decoration: none;
 }
 
 .alignleft {
@@ -30,7 +29,7 @@ nav ul, footer ul {
 a.headerfooter{
   color: #808080;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: bold;
+  font-weight: thin;
 }
 
 nav ul li, footer ul li {
