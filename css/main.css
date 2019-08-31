@@ -27,14 +27,13 @@ nav ul li:hover {
 a {
     text-decoration: none;
     color: #292929;
-    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
     font-weight: bold;
 }
 
 a.headerfooter {
     text-decoration: none;
     color: #808080;
-    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: bold;
 }
 
@@ -44,16 +43,14 @@ a.headerfooter {
 h1 {
     font-size: 4em;
     /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
-    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 700;
     color: #292929;
 }
 
 .blurb {
     /*font-family: "Roboto", "Helvetica", "Sans-Serif";*/
-    font-family: 'Neue Haas Unica Pro', 'Roboto', 'Helvetica Neue', sans-serif;
-    font-weight: thin;
-    src: url("NeueHaasUnicaPro-Thin.otf");
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
