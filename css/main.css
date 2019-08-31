@@ -12,7 +12,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: #808080;
 }
 
 footer {
@@ -28,6 +27,14 @@ a {
     font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
     font-weight: bold;
 }
+
+a #headerfooter {
+    text-decoration: none;
+    color: #808080;
+    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
+    font-weight: bold;
+}
+
 /*a:hover {
     text-decoration: underline;
 }*/
