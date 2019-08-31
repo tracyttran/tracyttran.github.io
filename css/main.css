@@ -102,10 +102,7 @@ ul.posts li {
 /* stack gallery grid on mobile */
 
  @media only screen and (max-width: 640px)
-  {.sqs-gallery-design-grid-slide {
-      width: 100% !important;
-      clear: none !important;
-  }
+  grid-template-columns: repeat(1, minimax(200px, 1fr));
  }
 
 img {
