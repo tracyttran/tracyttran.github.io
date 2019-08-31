@@ -124,7 +124,7 @@ img {
   overflow: hidden;
 }
  
-.listingtitle {
+.listing-title {
   z-index: 1;
   position: absolute;
   top: 0;
