@@ -52,13 +52,14 @@ h1 {
 .blurb {
     /*font-family: "Roboto", "Helvetica", "Sans-Serif";*/
     font-family: 'Neue Haas Unica Pro', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-weight: thin;
+    src: url("NeueHaasUnicaPro-Thin.otf");
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.0em;
     color: #2d2d2d;
-    font-weight: medium;
 }
 footer {
     border-top: 1px solid #d5d5d5;
