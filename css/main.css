@@ -24,6 +24,8 @@ nav ul li:hover {
 a {
     text-decoration: none;
     color: #000000;
+    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
+    font-weight: medium;
 }
 /*a:hover {
     text-decoration: underline;
@@ -50,7 +52,7 @@ h2 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #595959;
+    color: #000000;
     font-weight: bold;
 }
 footer {
