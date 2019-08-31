@@ -14,10 +14,10 @@ nav ul li, footer ul li {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-nav ul:hover {
+nav ul li:hover {
     text-decoration: underline;
 }
 a {
