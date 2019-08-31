@@ -1,6 +1,3 @@
-.textpart {
-    /*text-align: center;*/
-}
 body {
     margin: 60px auto;
     width: 70%;
@@ -59,9 +56,7 @@ a.listing-title:hover{
   color:#ffffff;
 }
 
-/*a:hover {
-    text-decoration: underline;
-}*/
+
 h1 {
   
     font-size: 3em;
@@ -100,7 +95,7 @@ ul.posts li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 /* stack gallery grid on mobile */
@@ -135,7 +130,7 @@ img {
   
   /* typographic styles */
   color: white;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
