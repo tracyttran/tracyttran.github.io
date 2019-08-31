@@ -47,19 +47,11 @@ h1 {
 
 .blurb {
     /*font-family: "Roboto", "Helvetica", "Sans-Serif";*/
-    font-family: 'Neue Haas Unica Pro', 'Source Code Pro', 'Helvetica Neue', sans-serif;
-}
-
-h2 {
-    font-size: 2.25em;
-    line-height: 0.5em;
-    color: #000000;
-    font-weight: bold;
-    font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
+    font-family: 'Neue Haas Unica Pro', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 p {
-    font-size: 1.9em;
+    font-size: 1.5em;
     line-height: 1.0em;
     color: #141414;
     font-weight: medium;
