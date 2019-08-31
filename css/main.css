@@ -28,7 +28,7 @@ a {
     font-weight: bold;
 }
 
-a #headerfooter {
+a.headerfooter {
     text-decoration: none;
     color: #808080;
     font-family: "Roboto", "Helvetica", "Arial", "Sans-Serif";
