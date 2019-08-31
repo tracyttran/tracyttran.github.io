@@ -154,17 +154,17 @@ img {
   opacity: 1;
 }
 
-.location-image {
+.listing-image {
   line-height: 0;
 }
 
-.location-image img {
+.listing-image img {
   filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
  
-.location-listing:hover .location-image img {
+.location-listing:hover .listing-image img {
   filter: blur(2px);
 }
 
@@ -173,7 +173,7 @@ img {
   .listing-title {
     opacity: 1;
   }
-  .location-image img {
+  .listing-image img {
     /* filter: blur(2px); */
   }
 }
