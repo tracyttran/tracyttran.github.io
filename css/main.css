@@ -43,7 +43,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-    font-weight: 500;
+    font-weight: bold;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -63,7 +63,7 @@ ul.posts li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 img {
