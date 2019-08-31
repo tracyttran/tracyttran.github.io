@@ -55,6 +55,10 @@ a:hover{
   color:#1ac7ae;
 }
 
+a.listingtitle:hover{
+  color:#ffffff;
+}
+
 /*a:hover {
     text-decoration: underline;
 }*/
