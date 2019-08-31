@@ -99,6 +99,15 @@ ul.posts li {
   margin-top: 100px;
 }
 
+/* stack gallery grid on mobile */
+
+ @media only screen and (max-width: 640px)
+  {.sqs-gallery-design-grid-slide {
+      width: 100% !important;
+      clear: none !important;
+  }
+ }
+
 img {
   width: 100%;
   height: auto;
@@ -162,3 +171,4 @@ img {
     /* filter: blur(2px); */
   }
 }
+
