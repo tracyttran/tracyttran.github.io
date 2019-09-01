@@ -170,8 +170,8 @@ img {
 }
  
 .listing-image img.portrait {
-  object-fit: cover;
-  overflow: hidden;
+  width: 100%;
+   height: auto;
 }
 
 .location-listing:hover .listing-image img {
