@@ -91,10 +91,6 @@ ul.posts li {
     list-style: none;
 }
 
-img {
-	object-fit: cover;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -161,6 +157,7 @@ img {
   filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
+  object-fit: scale-down;
 }
  
 .location-listing:hover .listing-image img {
