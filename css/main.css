@@ -179,12 +179,11 @@ img {
 
 
 .listing-image img.rotate {
- 	
-	 width: 100%;
-   height: auto;
+transform: rotate(90deg);
+ height: 100%;
+  width: auto;
   top: 50%;                         /* 3 */
    transform: translate(0, -50%);   /* 4 */
-   transform: rotate(90deg);
 }
 
 .location-listing:hover .listing-image img {
