@@ -179,8 +179,8 @@ img {
 
 
 .listing-image img.rotate {
-	 object-fit: cover;
 transform: rotate(90deg);
+	object-fit: cover;
  width: 100%;
  height: auto;
 }
