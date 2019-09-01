@@ -158,14 +158,14 @@ img {
 }
 
 .listing-image img {
+  object-fit: cover;
   position: absolute;
   height: 100%;
   width: auto;
+
   filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
-  object-fit: cover;
-
 }
  
 .listing-image img.portrait {
