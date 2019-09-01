@@ -170,6 +170,7 @@ img {
 }
  
 .listing-image img.portrait {
+margin: auto;
   width: 100%;
    height: auto;
 }
