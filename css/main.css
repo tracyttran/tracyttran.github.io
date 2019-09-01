@@ -158,6 +158,10 @@ img {
   overflow: hidden;
 }
 
+.listing-image img.rotate {
+transform: rotate(90deg);
+}
+
 .listing-image img {
   object-fit: cover;
   position: absolute;
@@ -178,11 +182,7 @@ img {
 }
 
 
-.listing-image img.rotate {
-transform: rotate(90deg);
-object-fit: cover;
 
-}
 
 .location-listing:hover .listing-image img {
   filter: blur(2px);
