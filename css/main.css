@@ -171,8 +171,6 @@ img {
  
 .listing-image img.portrait {
   object-fit: cover;
-  width: 100%;
-  height: auto;
   overflow: hidden;
 }
 
