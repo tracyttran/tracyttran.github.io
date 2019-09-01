@@ -177,6 +177,11 @@ img {
    transform: translate(0, -50%);   /* 4 */
 }
 
+
+.listing-image img.rotate {
+ 	transform: rotate(90deg);
+}
+
 .location-listing:hover .listing-image img {
   filter: blur(2px);
 }
