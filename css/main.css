@@ -173,7 +173,8 @@ img {
  
   width: 100%;
    height: auto;
-	align: center;
+  top: 50%;                         /* 3 */
+   transform: translate(0, -50%) }   /* 4 */
 }
 
 .location-listing:hover .listing-image img {
