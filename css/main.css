@@ -180,9 +180,8 @@ img {
 
 .listing-image img.rotate {
 transform: rotate(90deg);
-	object-fit: cover;
- width: 100%;
- height: auto;
+object-fit: cover;
+
 }
 
 .location-listing:hover .listing-image img {
