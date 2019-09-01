@@ -91,6 +91,10 @@ ul.posts li {
     list-style: none;
 }
 
+img {
+	object-fit: cover;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
