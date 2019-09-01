@@ -150,7 +150,6 @@ img {
 }
 
 .listing-image {
-  align: center;
   object-fit: cover;
   line-height: 0;
   position: relative;
@@ -171,9 +170,10 @@ img {
 }
  
 .listing-image img.portrait {
-margin: auto;
+ 
   width: 100%;
    height: auto;
+	align: center;
 }
 
 .location-listing:hover .listing-image img {
