@@ -151,9 +151,21 @@ img {
 
 .listing-image {
   line-height: 0;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
 }
 
 .listing-image img {
+  position: absolute;
+   left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
   filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
@@ -163,6 +175,10 @@ img {
 
 }
  
+.listing-image img.portrait {
+  width: 100%;
+  height: auto;
+}
 .location-listing:hover .listing-image img {
   filter: blur(2px);
 }
