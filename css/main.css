@@ -5,7 +5,7 @@
 /* Create two unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 20px;
+  padding: 0px;
 }
 
 .left {
@@ -13,6 +13,7 @@
 }
 
 .right {
+  padding-left: 60px;
   width: 75%;
 }
 
@@ -84,7 +85,15 @@ a.listing-title:hover{
 
 h1 {
   
-    font-size: 3em;
+    font-size: 3.2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+    /*font-family: "Roboto", "Helvetica", "Arial", sans-serif;*/
+    font-weight: 700;
+    color: #292929;
+}
+
+h2 {
+   font-size: 1.1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
     /*font-family: "Roboto", "Helvetica", "Arial", sans-serif;*/
     font-weight: 700;
@@ -95,12 +104,14 @@ h1 {
     /*font-family: "Roboto", "Helvetica", "Sans-Serif";*/
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #4f4f4f;
-    font-size: 1.0em;
+    color: #636363;
+  font-size: 1.1em;
+   
  }
 
 p {
     line-height: 1.0em;
+  
 }
 footer {
     border-top: 1px solid #d5d5d5;
