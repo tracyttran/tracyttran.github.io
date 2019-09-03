@@ -30,6 +30,11 @@ body {
     width: 70%;
 }
 
+.sectionbreak {
+	color: #8f8f8f;
+	border: 1px;
+}
+
 .navigation{
   margin-bottom: 120px;
 }
