@@ -56,15 +56,18 @@ a.listing-title:hover{
   color:#ffffff;
 }
 
-.headercolumnleft {
-	float: left;
-  padding: 10px;
+.column {
+   float: left;
+ padding: 10px;
+}
+
+.left {
+	
 	width: 25%;
 }
 
-.headercolumnright {
-	float: left;
-  padding: 10px;
+.right {
+
 	width: 75%;
 }
 
