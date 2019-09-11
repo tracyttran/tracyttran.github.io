@@ -17,6 +17,16 @@
   width: 75%;
 }
 
+
+.left_page {
+  width: 45%;
+}
+
+.right_page {
+  padding-left: 60px;
+  width: 55%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
