@@ -252,3 +252,8 @@ transform: rotate(90deg);
     /* filter: blur(2px); */
   }
 }
+
+
+video{
+ object-fit: cover; 
+}
