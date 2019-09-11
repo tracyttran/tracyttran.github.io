@@ -246,7 +246,7 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
   .listing-title {
-    opacity: 1;
+    opacity: 0;
   }
   .listing-image img {
     /* filter: blur(2px); */
