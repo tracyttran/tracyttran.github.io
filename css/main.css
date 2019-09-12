@@ -27,6 +27,22 @@
   width: 55%;
 }
 
+.left_page1of3 {
+  width: 33%;
+  padding-right: 6px;
+}
+
+.middle_page2of3 {
+  padding-left: 3px;
+  width: 33%;
+  padding-right: 3px;
+}
+
+.right_page3of3 {
+  width: 33%;
+  padding-left: 6px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
