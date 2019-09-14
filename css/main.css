@@ -262,6 +262,14 @@ transform: rotate(90deg);
   .listing-title {
     opacity: 0;
   }
+	
+.listing-image {
+  object-fit: cover;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
 	
 }
