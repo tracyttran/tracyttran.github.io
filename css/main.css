@@ -270,6 +270,10 @@ img {
   height: 600px;
 }
 
+.listing-image img {
+  margin-left: -0px; 
+	 
+}
  
 	
   .listing-title {
