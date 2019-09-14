@@ -253,11 +253,13 @@ transform: rotate(90deg);
 	
 .grid-container {	
 display: grid;
-  grid-template-columns: auto;
-  /*grid-template-columns: 1fr;*/
+  grid-template-columns: 1fr;
+  width: 100%;
   grid-gap: 1em;
   margin-top: 100px;
 }
+
+    
 	
 
 
