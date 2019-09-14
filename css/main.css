@@ -253,7 +253,7 @@ transform: rotate(90deg);
 	
 .grid-container {	
 display: grid;
-	  grid-auto-rows: minmax(125px, auto);
+  grid-template-columns: auto;
   /*grid-template-columns: 1fr;*/
   grid-gap: 1em;
   margin-top: 100px;
