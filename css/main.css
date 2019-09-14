@@ -268,7 +268,7 @@ display: grid;
     opacity: 0;
   }
   .listing-image img {
-    /* filter: blur(2px); */
+    width: 100%; 
   }
 }
 
