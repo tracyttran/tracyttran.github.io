@@ -264,13 +264,9 @@ transform: rotate(90deg);
   position: relative;
   overflow: hidden;
 	width: auto;
-	height: auto;
 }
 
-.listing-image img {
-  object-fit: cover;
-  position: absolute;
-}
+
  
 	
   .listing-title {
