@@ -263,9 +263,7 @@ transform: rotate(90deg);
     opacity: 0;
   }
   .listing-image {
-    max-width: 100%; 
-    height: auto; 
-	  
+    width: 100%;
   }
 	
 }
