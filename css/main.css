@@ -258,19 +258,15 @@ transform: rotate(90deg);
   margin-top: 100px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 	
   .listing-title {
     opacity: 0;
   }
-	
-.listing-image {
-  object-fit: cover;
-  line-height: 0;
-  position: relative;
-  width: 100%;
-  align: left;
-  overflow: hidden;
-}
 
 	
 }
