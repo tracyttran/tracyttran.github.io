@@ -263,6 +263,30 @@ img {
   height: auto;
 }
 
+.listing-image {
+  object-fit: cover;
+  line-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.listing-image img.rotate {
+transform: rotate(90deg);
+}
+
+.listing-image img {
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  left: 50%;
+  margin-left: -200px; 
+	  
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+ 
 	
   .listing-title {
     opacity: 0;
