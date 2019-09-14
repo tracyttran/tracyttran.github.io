@@ -262,6 +262,13 @@ img {
   height: auto;
 }
 
+.listing-image {
+  object-fit: cover;
+  line-height: 0;
+  position: relative;
+  width: 400px;
+  height: 325px;
+}
 
  
 	
