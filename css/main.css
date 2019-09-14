@@ -263,13 +263,13 @@ transform: rotate(90deg);
   line-height: 0;
   position: relative;
   overflow: hidden;
-  height: 100%;
 }
 
 .listing-image img {
   object-fit: cover;
   position: absolute;
   width: auto;
+  height: auto;
 }
  
 	
