@@ -251,19 +251,15 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
 	
-.grid-container {	
+.grid-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
-  margin-top: 100px;
 }
 
-.listing-image {
-  object-fit: cover;
-  line-height: 0;
-  position: relative;
-
-	width: auto;
+img {
+  width: 100%;
+  height: auto;
 }
 
 
