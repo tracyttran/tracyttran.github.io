@@ -167,17 +167,6 @@ ul.posts li {
   margin-top: 70px;
 }
 
-/* stack gallery grid on mobile */
-
- @media only screen and (max-width: 640px) {
-	.grid-container {
-	  display: grid;
-	  grid-template-columns: 1fr;
-	  grid-gap: 1em;
-	  margin-top: 100px;
-	}
- }
-
 img {
   width: 100%;
   height: auto;
@@ -262,12 +251,16 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
 	
-	.grid-container {
-	  display: grid;
-	  grid-template-columns: 1fr;
-	  grid-gap: 1em;
-	  margin-top: 100px;
-	}
+.grid-container {	
+display: grid;
+	  grid-auto-rows: minmax(125px, auto);
+  /*grid-template-columns: 1fr;*/
+  grid-gap: 1em;
+  margin-top: 100px;
+}
+	
+
+
 	
   .listing-title {
     opacity: 0;
