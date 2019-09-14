@@ -262,8 +262,8 @@ transform: rotate(90deg);
   object-fit: cover;
   line-height: 0;
   position: relative;
-  overflow: hidden;
-	height: auto;
+
+	width: auto;
 }
 
 
