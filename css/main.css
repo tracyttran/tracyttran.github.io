@@ -251,9 +251,14 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
 
+.left {
+  width: 35%;
+}
+
+
 .right {
   padding-left: 40px;
-  width: 75%;
+  width: 70%;
 }
 	
 h1 {
