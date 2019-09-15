@@ -251,6 +251,11 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
 	
+body {
+    margin: 30px auto;
+    width: 70%;
+}
+	
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
