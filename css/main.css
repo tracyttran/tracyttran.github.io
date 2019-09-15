@@ -250,6 +250,15 @@ transform: rotate(90deg);
 
 /* for touch screen devices */
 @media (hover: none) { 
+
+h1 {
+  
+    font-size: 3.0em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif'; 
+    /*font-family: "Roboto", "Helvetica", "Arial", sans-serif;*/
+    font-weight: 700;
+    color: #292929;
+}	
 	
 body {
     margin: 30px auto;
