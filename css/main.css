@@ -251,6 +251,11 @@ transform: rotate(90deg);
 /* for touch screen devices */
 @media (hover: none) { 
 
+.right {
+  padding-left: 40px;
+  width: 75%;
+}
+	
 h1 {
   
     font-size: 2.8em;
